@@ -1,0 +1,57 @@
+/* paleta{
+    #F26A2E
+    #DBAF63
+    #DB9C63
+    #DB7263
+    #DBBD63
+}*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 25px;
+    margin: 0;
+    background-color:rgb(255, 214, 176)
+}
+header {
+    width: 100%;
+    background-color:#F26A2E;
+}
+.body{
+    padding:0 50px;
+}
+h2,h3,h4,h5,h6{
+    text-align: center;
+}
+.container {
+display: flex;
+justify-content: space-between;
+}
+.links {
+    display: flex;
+    align-items: center;
+    padding-right: 10vh;
+}
+.links ul {
+    display: flex;
+    gap: 7vh;
+}
+.links ul li {
+    list-style: none;
+}
+.links ul li a {
+    text-decoration: none;
+color: white
+}
+.implementar ul li{ 
+    margin-bottom: 15px;
+}
+.principios ul li{
+    margin-bottom: 15px;
+}
+
+.video{
+    display:flex;
+    justify-content: center;
+}
